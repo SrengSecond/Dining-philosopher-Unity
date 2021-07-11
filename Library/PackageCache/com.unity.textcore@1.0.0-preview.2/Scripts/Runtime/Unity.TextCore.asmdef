@@ -1,0 +1,20 @@
+{
+    "name": "Unity.TextCore",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "4.0.0-preview.0",
+            "define": "TEXTMESHPRO_4_0_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

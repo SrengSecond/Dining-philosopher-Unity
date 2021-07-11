@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="style/button-style.uss" />
+    <ui:VisualElement name="VisualElement" style="height: -84px; flex-grow: 1; justify-content: center; align-items: flex-end; flex-direction: column;">
+        <ui:VisualElement name="VisualElement" style="height: 118px; width: 182px; flex-direction: column; align-items: center; justify-content: center; position: relative; background-color: rgba(255, 255, 255, 0.61); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; flex-grow: 0; margin-right: 16px; margin-bottom: 0; margin-left: 0; top: 0; left: 0; padding-right: 0; margin-top: 0; padding-left: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:Button text="Start Simulation" display-tooltip-when-elided="true" name="Button" class="button-Styles" style="margin-bottom: 6px;" />
+            <ui:Button text="Stop Simulation" display-tooltip-when-elided="true" name="Button" class="button-Style button-Styles button-stop-style" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Box" style="margin-right: 16px; -unity-background-image-tint-color: rgba(238, 37, 37, 255); background-color: rgba(255, 255, 255, 0.59);">
+            <ui:Label text="Options" display-tooltip-when-elided="true" name="Label" style="font-size: 18px; -unity-font-style: normal; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 10px; margin-top: 5px; -unity-font: resource(&apos;Fonts &amp; Materials/LiberationSans&apos;); -unity-text-align: upper-left; -unity-font-definition: resource(&apos;Fonts &amp; Materials/LiberationSans SDF&apos;);" />
+            <ui:VisualElement style="flex-direction: column-reverse; margin-bottom: 5px;">
+                <ui:Toggle label="  DeadLock" focusable="true" style="align-items: flex-start; justify-content: center; flex-direction: row-reverse; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-shrink: 0;" />
+                <ui:Toggle label="  Ordered" focusable="true" value="true" style="align-items: flex-start; justify-content: center; flex-direction: row-reverse; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; flex-shrink: 0;" />
+                <ui:Label text="Simulation Type" display-tooltip-when-elided="true" name="Label" style="margin-left: 5px; -unity-font-style: normal; -unity-font: url(&apos;/Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBold.ttf&apos;); font-size: 14px;" />
+            </ui:VisualElement>
+            <ui:Label text="Average Duration" display-tooltip-when-elided="true" name="Label" style="margin-left: 5px; -unity-font-style: normal; -unity-font: url(&apos;/Packages/com.unity.ui/PackageResources/Fonts/Inter/Inter-SemiBold.ttf&apos;); font-size: 14px;" />
+            <ui:VisualElement name="Box1" style="padding-left: 0; padding-right: 0; padding-top: 5px; padding-bottom: 5px;">
+                <ui:Slider picking-mode="Ignore" label="Thinking Duration" value="2000" high-value="5000" low-value="1000" style="flex-direction: column; flex-wrap: nowrap; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; font-size: 14px; -unity-font-style: normal; -unity-text-align: upper-center; white-space: normal;" />
+                <ui:VisualElement name="VisualElement" style="justify-content: space-between; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <ui:Label text="1sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="2sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="3sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="4sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Box2" style="padding-left: 0; padding-right: 0; padding-top: 5px; padding-bottom: 5px;">
+                <ui:Slider picking-mode="Ignore" label="Eating Duration" value="3000" high-value="5000" low-value="1000" style="flex-direction: column; flex-wrap: nowrap; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; font-size: 14px; -unity-font-style: normal; -unity-text-align: upper-center; white-space: normal;" />
+                <ui:VisualElement name="VisualElement" style="justify-content: space-between; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <ui:Label text="1sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="2sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="3sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="4sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Box3" style="padding-left: 0; padding-right: 0; padding-top: 5px; padding-bottom: 5px;">
+                <ui:Slider picking-mode="Ignore" label="Pickup Duration" value="0" high-value="2000" low-value="0" style="flex-direction: column; flex-wrap: nowrap; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; font-size: 14px; -unity-font-style: normal; -unity-text-align: upper-center; white-space: normal;" />
+                <ui:VisualElement name="VisualElement" style="justify-content: space-between; flex-direction: row; margin-left: 5px; margin-right: 5px; margin-top: 0; margin-bottom: 0; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <ui:Label text="0sec" display-tooltip-when-elided="true" style="font-size: 10px; padding-right: 0;" />
+                    <ui:Label text="0.5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="1sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="1.5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="2sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Box4" style="padding-left: 0; padding-right: 0; padding-top: 5px; padding-bottom: 5px;">
+                <ui:Slider picking-mode="Ignore" label="Drop Duration" value="-20.26" high-value="500" style="flex-direction: column; flex-wrap: nowrap; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; font-size: 14px; -unity-font-style: normal; -unity-text-align: upper-center; white-space: normal;" />
+                <ui:VisualElement name="VisualElement" style="justify-content: space-between; flex-direction: row; margin-left: 5px; margin-right: 5px; margin-top: 0; margin-bottom: 0; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <ui:Label text="0sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="0.5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="1sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="1.5sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                    <ui:Label text="2sec" display-tooltip-when-elided="true" style="font-size: 10px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

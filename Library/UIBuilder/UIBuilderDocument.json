@@ -1,0 +1,63 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "BuilderDocument",
+        "m_EditorClassIdentifier": "",
+        "m_CurrentCanvasTheme": 3,
+        "m_CurrentCanvasThemeStyleSheet": {
+            "instanceID": 0
+        },
+        "m_CodePreviewVisible": true,
+        "m_OpenUXMLFiles": [
+            {
+                "m_OpenUSSFiles": [],
+                "m_VisualTreeAssetBackup": {
+                    "instanceID": 0
+                },
+                "m_OpenendVisualTreeAssetOldPath": "Assets/Menu/DemoUI.uxml",
+                "m_VisualTreeAsset": {
+                    "fileID": 9197481963319205126,
+                    "guid": "17bd497a77ab6b74abe10d9a13427a7c",
+                    "type": 3
+                },
+                "m_ActiveStyleSheet": {
+                    "instanceID": 0
+                },
+                "m_Settings": {
+                    "UxmlGuid": "17bd497a77ab6b74abe10d9a13427a7c",
+                    "UxmlPath": "Assets/Menu/DemoUI.uxml",
+                    "CanvasX": 0,
+                    "CanvasY": 0,
+                    "CanvasWidth": 1107,
+                    "CanvasHeight": 701,
+                    "MatchGameView": false,
+                    "ZoomScale": 1.0,
+                    "PanOffset": {
+                        "x": -774.1004028320313,
+                        "y": -110.23880004882813
+                    },
+                    "ColorModeBackgroundOpacity": 1.0,
+                    "ImageModeCanvasBackgroundOpacity": 1.0,
+                    "CameraModeCanvasBackgroundOpacity": 1.0,
+                    "EnableCanvasBackground": true,
+                    "CanvasBackgroundMode": 2,
+                    "CanvasBackgroundColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 255.0
+                    },
+                    "CanvasBackgroundImage": {
+                        "instanceID": 0
+                    },
+                    "CanvasBackgroundImageScaleMode": 1,
+                    "CanvasBackgroundCameraName": "Main Camera"
+                },
+                "m_OpenSubDocumentParentIndex": -1,
+                "m_OpenSubDocumentParentSourceTemplateAssetIndex": -1
+            }
+        ],
+        "m_ActiveOpenUXMLFileIndex": 0
+    }
+}

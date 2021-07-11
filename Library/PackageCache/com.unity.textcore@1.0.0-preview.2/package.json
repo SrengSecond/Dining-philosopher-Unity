@@ -1,0 +1,20 @@
+{
+  "name": "com.unity.textcore",
+  "displayName": "TextCore",
+  "version": "1.0.0-preview.2",
+  "unity": "2019.4",
+  "unityRelease": "13f1",
+  "description": "TextCore is the new and improved text parser and layout engine used by UI Elements and TextMeshPro",
+  "keywords": [
+    "TextCore"
+  ],
+  "category": "Text Rendering",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.TextCore.git",
+    "type": "git",
+    "revision": "81f16370ad1d5bba43e5d1d1e3fc887152e67c09"
+  },
+  "upmCi": {
+    "footprint": "8f7baf06dc32617e2933228c814335199e50d7af"
+  }
+}
