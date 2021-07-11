@@ -14,4 +14,4 @@ consider a proposal in which each philosopher is instructed to behave as follows
 + then, put the right fork down;
 + then, put the left fork down;
 + repeat from the beginning.
-![](Deadlock-gif)
+![](Deadlock-gif.git)
